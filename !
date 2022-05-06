@@ -1,0 +1,6 @@
+if "`command` returns any error";
+then
+    echo "Returned an error"
+else
+    echo "Proceed..."
+fi
